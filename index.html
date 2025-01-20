@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"> 
+ <script src="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.2.0/script/monochrome/bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+           <nav class="header">
+            <div class="nav-logo">
+                <p class="nav-name">Portfolio</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle" ></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link active-link">About</a>
+                        <div class="circle" ></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link active-link">Projects</a>
+                        <div class="circle" ></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#portfolio" class="nav-link active-link">Portfolio</a>
+                        <div class="circle" ></div>
+                    </li>
+    
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link active-link">Contact</a>
+                        <div class="circle" ></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+<i class="fa fa-moon" id="moon"></i>
+<i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
+            </div>
+            </nav>
+            <main class="wrapper">
+                <section class="featured-box" id="home">
+            <div class="featured-text">
+                <div class ="hello">
+                    <p>Hello I'm </p>
+                </div>
+                <div class="featured-name" >
+                    <span class="typedText" ></span>
+                </div> 
+              <div class="text-info">
+                <p>My name is Subham Nayak! I'm Frontend Developer</p>
+              </div>
+              <div class ="text-btn">
+                <button class="hire-btn">Hire Me </button>
+                
+                <button class="btn" onclick="downloadCV()">Download My Cv <i class="fa-solid fa-file"></i></button>
+              </div>
+              <div class="social_icons">
+                <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="icon"><i class="fa-brands fa-github"></i></div>
+               </div>
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="Photo.jpg" alt="Photo">
+                </div>
+            </div>
+                </section>
+                <section class="section" id="about">
+                    <div class="top-header">
+                        <h1>About me</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="about-info">
+                                <figure class="about-me">
+<figcaption>
+    <img src="Photo.jpg" alt="photo" class="profile"/>
+    <h2>Web developer</h2>
+    <p>Hello! I'm Subham Nayak, a dedicated Computer Science Engineering student with a passion for web development and programming.</p>
+
+                                </figure>
+                                <button class="about-me-btn">Hire Me</button>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-box">
+                                <span class="title">HTML</span>
+                                <div class="skill-bar html">
+                                    <span class="skill-per">
+<span class="tooltip">75%</span>
+                                    </span>  
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">CSS</span>
+                                <div class="skill-bar css">
+                                    <span class="skill-per">
+<span class="tooltip">80%</span>
+                                    </span>  
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">C Programming</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per c programming">
+<span class="tooltip">70%</span>
+                                    </span>  
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">JavaScript</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per Javascript">
+<span class="tooltip">30%</span>
+                                    </span>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section" id="Projects">
+                    <div class="top-header">
+                        <h1>Projects</h1>
+                    </div>
+                    <div class="project-container">
+                        <div class="project-box">
+                        <i class="fa-solid fa-briefcase"></i>
+                          <h3>Completed</h3>
+                       <label>20+ Finished Projects</label>
+                               </div>
+                        <div class="project-box">
+                            <i class="fa-solid fa-user"></i>
+                            <h3>Clients</h3>
+                            <label>50+ Happy Clients</label>
+                        </div>
+                        <div class="project-box">
+                            <i class="fa-solid fa-award"></i>
+                            <h3>Experience</h3>
+                            <label>6+ Months in Frontend Development</label>
+                        </div>                     
+                    </div>
+             
+                </section>
+                <section>
+                    <div id="portfolio" id="project">
+                        <div class="main-text" id="project">
+                            <h2> Latest <span> Projects </span></h2>
+                            <div class="portfolio-content">
+                                <div class="row">
+                                    <img src="webify.jpg" alt="Webify" >
+                                    <div class="layer">
+                                        <h5>Webify</h5>
+                                        <p>Webify Project
+                                            Created a responsive website for Travelista Tours using HTML and CSS, featuring an interactive login page
+                                             and a user-friendly design.</p>
+                                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color:aliceblue"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <img src="netflix.jpg" alt="Netflix" >
+                                    <div class="layer">
+                                        <h5>Netflix</h5>
+                                        <p>Netflix Clone
+                                            Developed a Netflix clone using HTML, CSS, and JavaScript, featuring a responsive UI and interactive design to 
+                                            simulate the original platform's look and feel.</p>
+                                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color:aliceblue"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <img src="mynta.jpg" alt="Myntra" >
+                                    <div class="layer">
+                                        <h5>Myntra</h5>
+                                        <p>Myntra Clone
+                                            Created a Myntra clone using HTML, CSS, and JavaScript, showcasing a responsive design and seamless user interface inspired by the original e-commerce platform.</p>
+                                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color:aliceblue"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section" id="contact">
+                    <div class="top-header">
+                        <h1>Let's Work Together</h1>
+                        <span>Do you have a project in mind? Let's get in touch!</span>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="contact-info">
+                                <h2>Find Me<i class="fa-solid fa-magnifying-glass"></i></h2>
+                                <p><i class="fa-solid fa-envelope"></i>Email:sn343555@gmail.com</p>
+                                <p><i class="fa-solid fa-phone"></i>Phone:8249571246</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-control">
+                                <div class="form-input">
+                                    <input type="text" class="input-field" placeholder="Your Name">
+                                    <input type="text" class="input-field" placeholder="Your Email">
+                                </div>
+<div class="text-area">
+    <input type="text" class="input-subject" placeholder="Subject">
+    <textarea placeholder="Message"></textarea>
+</div>
+<div class="form-button">
+    <button class="btn">Send<i class="fa-solid fa-message"></i></button>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer>
+             <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+             </div>   
+             <div class="footer-social-icons">
+                <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="icon"><i class="fa-brands fa-github"></i></div>
+             </div>
+             <div class="bottom-footer">
+                <p>Copyright&Copy; <a href="#home" style="text-decoration: none;" >GeetaUniversity</a>.All Rights Reserved2025</p>
+             </div>
+            </footer>
+        </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+<script src="thor.js"></script>
+</body>
+</html>
