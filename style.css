@@ -7,6 +7,32 @@
     box-sizing:border-box ;
     font-family: "poppins", sans-serif;
 }
+
+.box1{
+    height:200px;
+    width:200px;
+    background-color: blue;
+    display:flex;
+}
+.box2{
+    height:300px;
+    width:300px;
+    background-color: chartreuse;
+    display: flex;
+}
+.box3{
+    height:300px;
+    width:300px;
+    background-color: rgb(12, 12, 12);
+    display: flex;
+}
+.box4{
+    height:300px;
+    width:300px;
+    background-color: rgb(233, 249, 16);
+    display: flex;
+}
+
 :root{
     --body-color:rgba(250,250,250);
     --color-white:rgb(254, 250, 250);
