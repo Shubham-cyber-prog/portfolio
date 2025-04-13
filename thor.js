@@ -51,6 +51,7 @@ gsap.from(".text-info",{
     stagger:0.5,
     scale:0.5,
 })
+
 function myMenuFunction(){
     var menuBth = document .getElementById("myNavMenu");
 
