@@ -10,10 +10,11 @@ Check out the live deployed version here:
 ## 📸 Screenshots
 
 ### 🌞 Light Mode
-![Light Mode](./3aac5f58-207d-4146-92b1-68d31466c13e.png)
+![Light Mode](![image](https://github.com/user-attachments/assets/66a145d1-1cc2-476f-922b-59fd667fb27f)
+
 
 ### 🌙 Dark Mode
-![Dark Mode](./25d1758c-b81a-44f2-bf1a-f1c580e8d238.png)
+![Dark Mode](![image](https://github.com/user-attachments/assets/8f3e3e05-f18b-43f9-9a45-6441c31261ab)
 
 ## 💻 Features
 
