@@ -1,4 +1,3 @@
-
 # 🌐 Subham Nayak's Portfolio
 
 Welcome to my personal portfolio website! This site showcases my skills, projects, and contact information as a Frontend Developer. The site features a responsive design with light and dark modes.
@@ -35,6 +34,18 @@ Check out the live deployed version here:
 
 GitHub Repository:  
 👉 [https://github.com/Shubham-cyber-prog/portfolio.git](https://github.com/Shubham-cyber-prog/portfolio.git)
+
+## 🌐 How to Deploy on GitHub Pages
+
+1. Go to your GitHub repository settings.
+2. Scroll down to the **Pages** section.
+3. Under **Source**, select the branch `main` (or your default branch).
+4. Select the folder `/ (root)` where your `index.html` is located.
+5. Click **Save**.
+6. Your site will be published at:  
+   `https://<your-github-username>.github.io/<repository-name>/`  
+   In your case:  
+   [https://shubham-cyber-prog.github.io/portfolio/](https://shubham-cyber-prog.github.io/portfolio/)
 
 ## 📬 Contact
 
